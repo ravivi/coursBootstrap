@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test cpntic</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/test.css">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/cpntic.png" alt="Bootstrap" width="150" height="50">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Mes competences</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Me contacter</a>
+          </li>
+
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Rechercher..." aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">Rechercher</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/img1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/img2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/img3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="container block-skills" id="skills">
+    <div class="text-center skills-text">
+      <h1>Mes compétences</h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6 card-item">
+        <div class="card">
+          <img src="img/img4.jpg" class="card-img-top" height="150" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">HTML</h5>
+            <p class="card-text">J'ai decouvert HTML il y a peu de temps et j'ai developpé des pages web avec HTML.</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                style="width: 75%">75%</div>
+            </div>
+            <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modal1">Voir plus</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card">
+          <img src="img/img5.jpg" class="card-img-top" alt="..." height="150">
+          <div class="card-body">
+            <h5 class="card-title">CSS</h5>
+            <p class="card-text">J'ai decouvert HTML il y a peu de temps et j'ai developpé des pages web avec HTML.</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                style="width: 75%">75%</div>
+            </div>
+            <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modal2">Voir plus</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card">
+          <img src="img/img6.jpg" class="card-img-top" height="150" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">DESIGN</h5>
+            <p class="card-text">J'ai decouvert HTML il y a peu de temps et j'ai developpé des pages web avec HTML.</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                style="width: 75%">75%</div>
+            </div>
+            <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modal3">Voir plus</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="card">
+          <img src="img/img7.jpg" class="card-img-top" height="150" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">PHOTOGRAPHIE</h5>
+            <p class="card-text">J'ai decouvert HTML il y a peu de temps et j'ai developpé des pages web avec HTML.</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                style="width: 75%">75%</div>
+            </div>
+            <a href="#" class="btn btn-danger"data-bs-toggle="modal" data-bs-target="#modal4">Voir plus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container contact" id="contact">
+    <div class="text-center contact-text">
+      <h1>Me contacter</h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-md-12 col-sm-12 contact-form">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Entrez votre nom</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Entrez votre numéro de téléphone</label>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Entrez votre email</label>
+            </div>
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Entrez votre objet</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+            style="height: 200px"></textarea>
+          <label for="floatingTextarea2">Entrez votre message</label>
+        </div>
+        <button type="button" class="btn btn-outline-warning">Envoyer le message</button>
+
+      </div>
+
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="text-center">
+          <img src="img/img1.jpg" class="rounded" height="220" alt="...">
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Modal1 -->
+  <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">HTML</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="img/img4.jpg" class="card-img-top" height="250" alt="...">
+
+          <p>
+            Le HyperText Markup Language, généralement abrégé HTML ou, dans sa dernière version, HTML5, est le langage
+            de balisage conçu pour représenter les pages web.
+
+            Ce langage permet d’écrire de l’hypertexte (d’où son nom), de structurer sémantiquement une page web, de
+            mettre en forme du contenu, de créer des formulaires de saisie ou encore d’inclure des ressources
+            multimédias dont des images, des vidéos, et des programmes informatiques. L'HTML offre également la
+            possibilité de créer des documents interopérables avec des équipements très variés et conformément aux
+            exigences de l’accessibilité du web.
+
+            Il est souvent utilisé conjointement avec le langage de programmation JavaScript et des feuilles de style en
+            cascade (CSS). HTML est inspiré du Standard Generalized Markup Language (SGML). Il s'agit d'un format
+            ouvert.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fermer</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal2 -->
+  <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">CSS</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="img/img5.jpg" class="card-img-top" height="250" alt="...">
+
+          <p>
+            Les feuilles de style en cascade, généralement appelées CSS de l'anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML. Les standards définissant CSS sont publiés par le World Wide Web Consortium (W3C). Introduit au milieu des années 1990, CSS devient couramment utilisé dans la conception de sites web et bien pris en charge par les navigateurs web dans les années 2000. 
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fermer</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal3 -->
+  <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">GRAPHIQUE DESIGN</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="img/img6.jpg" class="card-img-top" height="250" alt="...">
+
+          <p>
+            Le graphisme est une discipline qui consiste à créer, choisir et utiliser des éléments graphiques (dessins, caractères typographiques, photos, couleurs, etc.) pour élaborer un objet de communication et/ou de culture. C'est une manière de représenter. Chacun des éléments est symbolique et signifiant dans la conception du projet, selon les axes définis éventuellement avec d'autres intervenants du domaine de la communication, dans le but de promouvoir, d'informer ou d'instruire.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fermer</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Modal4 -->
+    <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">PHOTOGRAPHIE</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="img/img7.jpg" class="card-img-top" height="250" alt="...">
+  
+            <p>
+              La photographie est l'ensemble des techniques, des procédés et des matériels qui permettent d'enregistrer un sujet en image fixe.
+
+Par extension, le terme « photographie » désigne aussi le phototype c'est-à-dire « tout support photographique, négatif ou positif, visible et stable, obtenu après exposition et traitement d'une couche sensible (qui s'oppose à l'image latente), ou le fichier numérique obtenu par appareil de prise de vue numérique. Ainsi, lorsqu'une photographie en noir et blanc est doublée en couleurs, le négatif noir et blanc et le positif (ou négatif) couleurs constituent deux phototypes distincts »
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fermer</button>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

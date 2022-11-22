@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="row">
+    <div class="col-8">
+      Première colonne
+    </div>
+    <div class="col-4">
+      Deuxième colonne
+    </div>
+  </div>
+</div>
